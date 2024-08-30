@@ -1,0 +1,174 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Sairaj - Developer Portfolio</title> 
+    <link rel="preconnect" href="c:\Users\91876\Downloads\Poppins (1)\Poppins-Bold.ttf" <link rel="preconnect"
+        href="c:\Users\91876\Downloads\Poppins (1)\Poppins-Regular.ttf" crossorigin>
+    <link href="c:\Users\91876\Downloads\Poppins (1)\Poppins-Medium.ttf" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 32);
+            color: rgb(254, 254, 255);
+            font-family: 'poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 120px;
+            background-co lor: rgb(13, 1, 56);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(5, 216, 253);
+            font-size: 1.2rem;
+        }
+
+        .left {
+            font-size: 3rem;
+        }
+
+        main hr{
+            border: 0;
+            background-color: rgb(29, 29, 165);
+            height: 1.6px;
+            margin: 40px 80px;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 110px 0;
+        }
+
+        .firstsection>div {
+            width: 30%;
+        }
+
+        .leftsection {
+            font-size: 3rem;
+            margin: 30px 0;
+        }
+
+        .rightsection img {
+            width: 88%;
+            margin: 50px 0;
+        }
+
+        .purple {
+            color: rgb(235, 89, 191);
+        }
+
+        #element {
+            color: rgb(235, 89, 191);
+        }
+
+        .secondsection{
+            display: flex;
+            justify-content: space-around;
+            margin: 30px 0;
+            align-items:flex-start;
+        }
+
+        .secondsection=.leftsection{}
+
+    </style>
+</head>
+
+<body>
+    <header>-
+        <nav>
+            <div class="left"> Sairaj's Portfolio </div>
+            <div class="right"></div>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Qualifications</a></li>
+                <li><a href="/">Projects</a></li>
+                <li><a href="/">Contact Me</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi,My name is <span class="purple">Sairaj Gholap</span>
+
+                <div>and I am a Passionate</div>
+                <span id="element"></span>
+
+            </div>
+            <div class="rightsection">
+                <img src="dev.png" alt="">
+
+            </div>
+
+            </div>
+
+        </section>
+        <hr>
+
+        <section class="secondsection">
+            <h1>About :</h1>
+            <div class="leftsection">
+                My name is Sairaj Gholap
+                and I am currently pursuing MCA
+                in Ajeenkya D.Y.Patil University.
+                I have a completed my Graduation
+                in Hon.Balasaheb Jadhav College
+                with 8.17 CGPA.
+                My hobbies are Singing,Reading,
+                Skething and i'm too passinate 
+                about to learn a new things
+                Thank You.
+             </div>
+
+           <div class="rightsection">
+            <img src="D.png" alt="">
+            </div>
+         
+        
+
+
+        </section>
+    
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Fullstack Developer.'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+</html>
